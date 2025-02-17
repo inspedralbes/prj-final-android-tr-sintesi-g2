@@ -1,0 +1,12 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/EDSON/UI%20Menu/UI_Register/Prueba.uss?fileID=7433441132597879392&amp;guid=c58cadce659de564799e255aaea9c402&amp;type=3#Prueba" />
+    <engine:VisualElement name="MainContainer" style="flex-grow: 1; background-color: rgba(34, 34, 34, 0.95); align-items: center; justify-content: center; padding: 40px; background-image: url(&quot;project://database/Assets/cinematicaLogica/fondos/cinematic5.png?fileID=2800000&amp;guid=5a035311d1040ea46a21fce34dc3a21d&amp;type=3#cinematic5&quot;); background-size: cover;">
+        <engine:VisualElement name="FormContainer" class="formContainerStyle" style="background-color: rgb(56, 56, 56); width: 392px; -unity-text-align: upper-center; color: rgb(0, 0, 0);">
+            <engine:TextField placeholder-text="Enter your nickname" name="TextNickname" class="nicknameStyle" style="width: 100%; font-size: 22px; padding: 14px; border-radius: 10px;" />
+            <engine:Button text="Register" name="Register" class="registerButtonStyle" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
+
+
+

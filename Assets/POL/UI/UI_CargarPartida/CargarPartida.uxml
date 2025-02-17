@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/POL/UI/UI_CargarPartida/CargarPartida.uss?fileID=7433441132597879392&amp;guid=6ac02afeee613ae43ad2b05e808103b4&amp;type=3#CargarPartida" />
+    <ui:VisualElement name="MainPanel" class="main-panel" style="background-color: rgba(20, 20, 20, 0);">
+        <ui:VisualElement name="MenuContainer" class="menu-container" style="background-color: rgba(0, 0, 0, 0); width: 440px; height: 426px;">
+            <ui:Button name="LoadGameButton" text="Cargar Partida" class="menu-button" style="height: 92px;" />
+            <ui:Button name="NewGameButton" text="Nueva Partida" class="menu-button" style="height: 82px;" />
+            <ui:Button name="DeleteGameButton" text="Borrar Partida" class="menu-button" style="height: 92px;" />
+            <ui:Button name="ExitButton" text="Salir" class="menu-button" style="height: 89px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="DynamicTextContainer" class="dynamic-text-container" style="width: 584px; left: 33px; top: 73px; font-size: 60px; height: 217px; align-items: flex-start;">
+            <ui:Label name="DynamicText1" text="Texto dinámico 1" class="dynamic-text" />
+            <ui:Label name="DynamicText2" text="Texto dinámico 2" class="dynamic-text" />
+            <ui:Label name="DynamicText3" text="Texto dinámico 3" class="dynamic-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

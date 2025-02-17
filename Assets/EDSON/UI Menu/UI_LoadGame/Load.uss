@@ -1,0 +1,25 @@
+.buttonContainer {
+    flex-direction: row;
+    align-self: stretch;
+    flex-shrink: 0;
+    border-bottom-width: 50px;
+}
+
+.mainContainer {
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.arrowContainer {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}

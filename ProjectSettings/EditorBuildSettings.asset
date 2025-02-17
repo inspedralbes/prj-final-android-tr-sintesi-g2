@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/NICO/Scenes/MAPA TUTORIALL.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/EDSON/Scenes/Menu.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/POL/Scenes/Principal.unity
+    guid: 8fd4ce12da791c74dbd87f66ce30b2f6
+  - enabled: 1
+    path: Assets/POL/Scenes/CargarPartida.unity
+    guid: cf28d794a1e17b441b3ebd4e4ea7130f
+  - enabled: 1
+    path: Assets/POL/Scenes/EnUnFuturo.unity
+    guid: e6a362699f4ce504d9aded66bad5bcab
+  - enabled: 1
+    path: Assets/IKER/Scenes/MainScene.unity
+    guid: 78f50cf92e4afb6438141dabcfeba945
+  - enabled: 1
+    path: Assets/cinematicaLogica/cinematic.unity
+    guid: 00d5be842af0bf04f8d12f07123930bd
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
+  m_UseUCBPForAssetBundles: 0

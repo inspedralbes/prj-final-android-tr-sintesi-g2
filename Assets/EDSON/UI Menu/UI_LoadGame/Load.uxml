@@ -1,0 +1,18 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/EDSON/UI%20Menu/UI_LoadGame/Load.uss?fileID=7433441132597879392&amp;guid=d26f626d47ea2dc92b6a12150a73d9c0&amp;type=3#Load" />
+    <engine:VisualElement name="ContainerText" class="mainContainer" style="flex-grow: 1;">
+        <engine:Label text="Load Game&#10;" name="titleContainer" />
+        <engine:Label text="Select one of the slots to load your game&#10;" />
+        <engine:Label />
+    </engine:VisualElement>
+    <engine:VisualElement name="arrowContainer" class="arrowContainer" style="flex-grow: 1;">
+        <engine:Label text="ccaca" />
+        <engine:Label name="caca" text="caca" />
+        <engine:Label name="Label" text="cacaca" class="arrowCOntainer" />
+    </engine:VisualElement>
+    <engine:VisualElement name="ContainerButtons" class="buttonContainer" style="flex-grow: 0; justify-content: center; align-items: stretch; flex-direction: row; align-self: stretch; margin-bottom: 0; margin-top: 0; margin-right: 0; margin-left: 0; flex-wrap: nowrap; flex-shrink: 0;">
+        <engine:Button text="Button" name="Slot1" style="height: 199px; width: 166px;" />
+        <engine:Button text="Button" name="Slot2" style="height: 199px; width: 166px;" />
+        <engine:Button text="Button" name="Slot3" style="height: 199px; width: 166px; justify-content: space-between; align-self: stretch; align-content: stretch;" />
+    </engine:VisualElement>
+</engine:UXML>

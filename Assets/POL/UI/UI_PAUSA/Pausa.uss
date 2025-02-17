@@ -1,0 +1,33 @@
+.pause-menu {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pause-title {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.resume-button,
+.settings-button,
+.quit-button {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: white; /* Mantiene el texto del label siempre blanco */
+}
+
+.nicknameStyle {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black; /* Color del texto ingresado */
+    font-size: 22px;
+    padding: 14px;
+    text-align: center;
+}
+
+.nicknameStyle::placeholder {
+    color: white; /* El texto placeholder (introduce tu nickname) siempre en blanco */
+    opacity: 1;
+}
+
+.nicknameStyle:focus::placeholder {
+    color: white; /* Asegura que el placeholder permanezca blanco incluso al hacer focus */
+    opacity: 1;
+}
+
+.registerContainerStyle {
+    align-items: stretch;
+    align-self: center;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    flex-grow: 1;
+}
+
+.styleElement {
+}

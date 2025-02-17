@@ -1,0 +1,19 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/EDSON/UI%20Menu/UI_Login/Login.uss?fileID=7433441132597879392&amp;guid=d1bd14dc0cee078908ed00745f7b1dab&amp;type=3#Login" />
+    <engine:VisualElement name="MainContainer" enabled="true" style="flex-grow: 1; background-color: rgba(20, 20, 20, 0.95); background-image: resource(&apos;Images/fondoLogin&apos;); background-size: cover; background-position: center;">
+        <engine:VisualElement style="flex-grow: 1; height: 13px;" />
+        <engine:VisualElement name="Contenedor" style="flex-grow: 1; flex-shrink: 0; align-items: center; justify-content: center; padding: 30px;">
+            <engine:VisualElement name="textContainer" style="align-items: center; width: 500px; max-width: 550px; padding: 30px;">
+                <engine:Label text="introduce tu nickname:" class="custom-label" style="margin-bottom: 10px; font-size: 25px; -unity-font-style: bold-and-italic;" />
+                <engine:TextField name="textNickname" class="nicknameStyle" style="width: 520px; color: rgb(0, 0, 0); -unity-font-style: bold; -unity-text-align: upper-center; background-image: url(&quot;project://database/Assets/IKER/Art/Sprites/fondo.png?fileID=2800000&amp;guid=2b80c6af619f7564c878a1f3f871d958&amp;type=3#fondo&quot;);" />
+            </engine:VisualElement>
+            <engine:VisualElement name="buttonsContainer" style="margin-top: 25px; align-items: center;">
+                <engine:Button text="Login" name="loginButton" style="width: 299px; height: 80px; background-color: rgb(52, 152, 219); color: white; font-size: 24px; font-weight: bold; border-radius: 14px; border: none; transition: background-color 0.3s; background-image: url(&quot;project://database/Assets/MOI/inventario/cajon/back.png?fileID=2800000&amp;guid=4271149e3e1ff7140bb9e10b91e3a259&amp;type=3#back&quot;); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); -unity-font-style: bold-and-italic; -unity-font-definition: resource(&apos;Fonts &amp; Materials/OptimusPrincepsSemiBold&apos;);" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="registerContainer" class="registerContainerStyle" style="margin-top: 30px; align-items: center; flex-direction: row; justify-content: center;">
+            <engine:Label text="¿No tienes cuenta?" name="InfoText" class="styleElement nicknameStyle" style="color: white; font-size: 20px; margin-right: 14px; -unity-font-style: bold-and-italic;" />
+            <engine:Button text="Regístrate aquí" name="goesToRegisterScreen" style="background-color: rgb(46, 204, 113); color: white; font-size: 20px; padding: 14px 22px; border-radius: 12px; border: none; transition: background-color 0.3s; background-image: url(&quot;project://database/Assets/MOI/inventario/cajon/back.png?fileID=2800000&amp;guid=4271149e3e1ff7140bb9e10b91e3a259&amp;type=3#back&quot;); width: 235px; -unity-font-style: bold-and-italic; -unity-font-definition: url(&quot;project://database/Assets/IKER/OptimusPrincepsSemiBold.ttf?fileID=12800000&amp;guid=0505309960e5f9042a20a121bd8756da&amp;type=3#OptimusPrincepsSemiBold&quot;);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

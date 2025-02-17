@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/EDSON/UI%20Menu/UI_InitialScreen/InitialScreen.uss?fileID=7433441132597879392&amp;guid=3ab692465ddda7c6b8b51fb344c719bc&amp;type=3#InitialScreen" />
+    <engine:VisualElement name="backgroundContainer" class="background" style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; background-image: url(&quot;project://database/Assets/cinematicaLogica/fondos/titlecard.png?fileID=2800000&amp;guid=d97d80e924b46eb42990ea4bfbd85328&amp;type=3#titlecard&quot;);">
+        <engine:VisualElement name="cont1" class="container" style="flex-grow: 1;" />
+        <engine:VisualElement name="cont2" class="container" style="flex-grow: 1;">
+            <engine:Button text="Click anywhere to continue" name="nextButton" class="startButton buttonColorH" style="height: 879px; width: 1899px; background-image: none; background-color: rgba(0, 0, 0, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/MOI/OptimusPrincepsSemiBold.ttf?fileID=12800000&amp;guid=a960b64766cb7fe4b9107eb72908d55f&amp;type=3#OptimusPrincepsSemiBold&quot;);" />
+        </engine:VisualElement>
+        <engine:VisualElement name="cont3" class="container" style="flex-grow: 1; font-size: 25px;" />
+    </engine:VisualElement>
+</engine:UXML>

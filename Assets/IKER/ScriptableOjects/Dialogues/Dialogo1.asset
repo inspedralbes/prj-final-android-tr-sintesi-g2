@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c092bb2c2768d4f45b5c037620df2532, type: 3}
+  m_Name: Dialogo1
+  m_EditorClassIdentifier: 
+  dialogueTurnsList:
+  - <Character>k__BackingField: {fileID: 11400000, guid: 042e5873303a35541987377302458eb2, type: 2}
+    dialogueLine: "You've fallen into the Abyss, a place where the forgotten, the
+      broken, and the betrayed are cast away. The walls of this forsaken pit have
+      seen the fall of many, their names lost to time, their bodies left to decay
+      in the dark. This is no ordinary prison. This is where the damned are sent
+      to fade into oblivion, never to return. But don\u2019t be fooled, stranger
+      this place is not without its ruler. You\u2019re in Valthorr's domain now."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 042e5873303a35541987377302458eb2, type: 2}
+    dialogueLine: "Valthorr... He was once the chief of the suburbs, the lower quarters
+      of Averon, where those too weak or too poor to survive in the city\u2019s light
+      were left to rot. But that was before he was cast down, exiled like all of
+      us. Now, he is known as Valthorr, the Abyss Plague. His very name strikes terror
+      in the hearts of those who dwell here. He controls everything in this pit,
+      and his power grows stronger with each passing day, feeding off the suffering
+      of those trapped beneath the earth. There\u2019s no escape from his grasp."
+  - <Character>k__BackingField: {fileID: 11400000, guid: 042e5873303a35541987377302458eb2, type: 2}
+    dialogueLine: "If you think you can escape, you\u2019re wrong. Valthorr rules
+      this place with an iron fist, and his influence stretches to every corner of
+      the Abyss. Those who challenge him, or even think to defy him, disappea reduced
+      to dust, or worse, transformed into the horrors that roam these caves. You\u2019ll
+      need more than luck if you want to survive here. Strength, cunning, and a willingness
+      to embrace the darkness are your only allies now. But be warned, the deeper
+      you go, the more you risk losing yourself to this cursed place."

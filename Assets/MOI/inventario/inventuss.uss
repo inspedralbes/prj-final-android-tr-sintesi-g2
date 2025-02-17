@@ -1,0 +1,46 @@
+/* Contenedor principal */
+.container {
+    position: absolute;
+    top: 67px;
+    left: 263px;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(215, 192, 167);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Contenedor de botones alineados verticalmente */
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-left: 10%;
+}
+
+/* Fila de botones */
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilo de los botones */
+.button {
+    width: 95px;
+    height: 80px;
+}
+
+/* Contenedor de botones alineados horizontalmente */
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10%;
+}
+
+/* Estilo de la imagen */
+.inventory-image {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: 100px; /* Ajusta el tamaño de la imagen */
+    margin-right: 20px; /* Separa la imagen de los demás elementos */
+}

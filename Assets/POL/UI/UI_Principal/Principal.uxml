@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/POL/UI/UI_Principal/Principal.uss?fileID=7433441132597879392&amp;guid=a865262a128ca714dbc84a871016a6d7&amp;type=3#Principal" />
+    <ui:VisualElement name="MainPanel" class="main-panel">
+        <ui:VisualElement name="MenuContainer" class="menu-container" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:Button name="SinglePlayerButton" text="Single" class="menu-button" />
+            <ui:Button name="MultiplayerButton" text="Multiplayer" class="menu-button" />
+            <ui:Button name="CreditsButton" text="Credits" class="menu-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
