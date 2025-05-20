@@ -1,0 +1,17 @@
+.background {
+    background-image: url('project://database/Assets/POL/backgrounds/top.png?fileID=2800000&guid=d25154b6fa444c14684187d159fe4204&type=3#top');
+}
+
+.container {
+    flex-direction: row;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttonColorH:hover {
+    color: rgb(255, 0, 0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}

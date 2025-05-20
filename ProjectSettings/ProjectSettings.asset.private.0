@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: f9fbc194bb78d6e40a1b365f61f859ba
+  productGUID: 9f0e5165a747a9d4ca001d4b16357a57
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: The Last Knight of Averon FV
+  productName: TheLastKinghtOfAveron RFV
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
@@ -686,14 +686,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: The Last Knight of Averon FV
+  metroPackageName: TheLastKinghtOfAveron RFV
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: The Last Knight of Averon FV
+  metroApplicationDescription: TheLastKinghtOfAveron RFV
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0

@@ -1,0 +1,122 @@
+.skin-shop-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.shop-title {
+    font-size: 24px;
+    color: white;
+    -unity-text-align: middle-center;
+    margin-bottom: 20px;
+}
+
+.skin-display-area {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.skin-image-container {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.skin-image {
+    width: 80%;
+    height: 80%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.skin-name-label {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    -unity-text-align: middle-center;
+}
+
+.price-label {
+    margin-top: 5px;
+    color: #FFD700;
+    font-size: 16px;
+    -unity-text-align: middle-center;
+}
+
+.arrow-button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    color: white;
+    -unity-text-align: middle-center;
+}
+
+.arrow-button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.arrow-button:disabled {
+    opacity: 0.5;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.action-button {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    align-self: center;
+    font-size: 18px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    -unity-text-align: middle-center;
+}
+
+.action-button:hover {
+    background-color: #45a049;
+}
+
+.action-button:disabled {
+    opacity: 0.5;
+    background-color: #2c662f;
+}
+
+.loading-indicator {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-indicator::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-left-color: #FFD700;
+    border-right-color: #FFD700;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% { rotate: 0deg; }
+    100% { rotate: 360deg; }
+}

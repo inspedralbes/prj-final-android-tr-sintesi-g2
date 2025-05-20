@@ -1,0 +1,24 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Ui_Credits/Credits.uss?fileID=7433441132597879392&amp;guid=0f53ce2a7275ce24fb073437a7cff201&amp;type=3#Credits" />
+    <engine:VisualElement name="credits-container" class="credits-container" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/OldLondon.ttf?fileID=12800000&amp;guid=42eba26df2a7a44aca9de407286bd96d&amp;type=3#OldLondon&quot;); font-size: 30px;">
+        <engine:ScrollView name="credits-scroll" class="credits-scroll" style="background-image: url(&quot;project://database/Assets/Art/2beb2e18-8145-40f2-b911-a44c9087c74e.png?fileID=2800000&amp;guid=f1828b09a93f920499d4abe4eef3f7e7&amp;type=3#2beb2e18-8145-40f2-b911-a44c9087c74e&quot;);">
+            <engine:VisualElement name="credits-content" class="credits-content">
+                <engine:Label text="The Last Knight of Averon" class="game-title" style="font-size: 60px;" />
+                <engine:Label text="Development Team" class="section-title" style="font-size: 45px;" />
+                <engine:Label text="Nico Posada" class="credit-name" style="font-size: 30px;" />
+                <engine:Label text="Moises Garcia" class="credit-name" style="font-size: 30px;" />
+                <engine:Label text="Edson Torres" class="credit-name" style="font-size: 30px;" />
+                <engine:Label text="Pol Diaz" class="credit-name" style="font-size: 30px;" />
+                <engine:Label text="Iker Delgado" class="credit-name" style="font-size: 30px;" />
+                <engine:Label text="Special Thanks" class="section-title" style="font-size: 40px;" />
+                <engine:Label text="Luiz Melo" class="credit-name" style="font-size: 30px;" />
+                <engine:Label text="for the amazing asset contributions" class="credit-detail" style="font-size: 30px;" />
+                <engine:VisualElement class="spacer" />
+                <engine:Label text="Thank you for playing!" class="thank-you" style="font-size: 45px;" />
+                <engine:VisualElement class="spacer" />
+                <engine:VisualElement class="spacer" />
+                <engine:Button name="back-to-menu-button" text="Volver al Menú" class="back-to-menu-button" style="align-self: center; margin-top: 30px; margin-bottom: 40px; width: 300px; font-size: 32px; position: absolute; top: 900px; left: 795px; -unity-text-align: upper-center; height: 58px; background-image: url(&quot;project://database/Assets/Art/Sprites/Inventory/back.png?fileID=2800000&amp;guid=4271149e3e1ff7140bb9e10b91e3a259&amp;type=3#back&quot;); color: rgb(255, 215, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0);" />
+            </engine:VisualElement>
+        </engine:ScrollView>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,90 @@
+:root {
+    --text-color: rgb(200, 200, 200);
+    --highlight-color: rgb(174, 21, 21);
+}
+
+.main-panel {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+    background-image: none;
+    -unity-font-definition: url("project://database/Assets/Fonts/OldLondon.ttf?fileID=12800000&guid=42eba26df2a7a44aca9de407286bd96d&type=3#OldLondon");
+}
+
+.menu-container {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.menu-button {
+    font-size: 70px;
+    margin: 10px 0;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    align-items: flex-start;
+    -unity-text-align: upper-left;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: url("project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&guid=ec41658cac96d43e9a71af7381558af0&type=3#OldLondonAlternate");
+    color: rgb(255, 255, 255);
+}
+
+.menu-button:hover {
+    color: var(--highlight-color);
+    text-shadow: 0 0 8px var(--highlight-color);
+    -unity-font-definition: url("project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&guid=ec41658cac96d43e9a71af7381558af0&type=3#OldLondonAlternate");
+}
+
+.menu-button:active {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 12px var(--highlight-color);
+    -unity-font-definition: url("project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&guid=ec41658cac96d43e9a71af7381558af0&type=3#OldLondonAlternate");
+}
+
+.dynamic-text {
+    font-size: 50px;
+    color: var(--text-color);
+    text-align: center;
+    margin: 5px 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    -unity-font-definition: url("project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&guid=ec41658cac96d43e9a71af7381558af0&type=3#OldLondonAlternate");
+}
+
+.image-container {
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -unity-font-definition: url("project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&guid=ec41658cac96d43e9a71af7381558af0&type=3#OldLondonAlternate");
+}
+
+.dynamic-text-container {
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    -unity-font-definition: url("project://database/Assets/Fonts/OldLondon.ttf?fileID=12800000&guid=42eba26df2a7a44aca9de407286bd96d&type=3#OldLondon");
+}

@@ -5,27 +5,54 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/NICO/Scenes/MAPA TUTORIALL.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/EDSON/Scenes/Menu.unity
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/POL/Scenes/Principal.unity
-    guid: 8fd4ce12da791c74dbd87f66ce30b2f6
+    path: Assets/Scenes/Menu/Login.unity
+    guid: e453954c8838741c6be7cfcdaa517cc6
   - enabled: 1
-    path: Assets/POL/Scenes/CargarPartida.unity
-    guid: cf28d794a1e17b441b3ebd4e4ea7130f
+    path: Assets/Scenes/Menu/Menu.unity
+    guid: 17c599c0bc38daf4b8b53df44c360a54
   - enabled: 1
-    path: Assets/POL/Scenes/EnUnFuturo.unity
-    guid: e6a362699f4ce504d9aded66bad5bcab
+    path: Assets/Scenes/cinematicas/cinematic.unity
+    guid: 0846ff8e23127684cb0fade42018bfa0
   - enabled: 1
-    path: Assets/IKER/Scenes/MainScene.unity
-    guid: 78f50cf92e4afb6438141dabcfeba945
+    path: Assets/Scenes/TUTORIAL/MAPA TUTORIALL.unity
+    guid: d550c90d6202cf74b843bf4b5e19f472
   - enabled: 1
-    path: Assets/cinematicaLogica/cinematic.unity
-    guid: 00d5be842af0bf04f8d12f07123930bd
+    path: Assets/Scenes/finalscenes/FinalCinematic.unity
+    guid: 758f3b93bd4b1164f91775e87f9dbe59
+  - enabled: 1
+    path: Assets/Scenes/finalscenes/CinematicaFinal.unity
+    guid: f3e92fcbad83cb245ac0be26b864fbc1
+  - enabled: 1
+    path: Assets/Scenes/finalscenes/FinalScene2.unity
+    guid: 2c73aa0c501a7a646bc6d127d193db28
+  - enabled: 1
+    path: Assets/Scenes/online/Coperativo.unity
+    guid: 4b53d589bfdc9d547a1adc12ac5b092a
+  - enabled: 1
+    path: Assets/Scenes/cinematicas/cinematicCity.unity
+    guid: ea7ad2737852a494f85a4acd89337013
+  - enabled: 1
+    path: Assets/Scenes/cinematicas/cityCinemmatic.unity
+    guid: 3830875ecf85dad4cbb755a64485a0ee
+  - enabled: 1
+    path: Assets/Scenes/MapaSuperficie/SuperficieLevel.unity
+    guid: 9b5a412f79d21534b80819afb44b64c2
+  - enabled: 1
+    path: Assets/Scenes/MapaCiudad/MapaCiudad.unity
+    guid: 41ae61e022b2cf84ca42baef0ace8832
+  - enabled: 1
+    path: Assets/Scenes/finalscenes/FinalScene.unity
+    guid: cba5c665c95dae640b1dc8d79fba0d0e
+  - enabled: 1
+    path: Assets/Scenes/online/Lobby.unity
+    guid: f833fdb3022eb2c4995426c4790bd63f
+  - enabled: 1
+    path: Assets/Scenes/online/MainMenu.unity
+    guid: 82adddd94df91c94ebcc4c9a1e8ff29e
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

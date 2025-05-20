@@ -4,23 +4,23 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Ground
-  - FalseWall
   - Enemy
-  - Spikes
-  - Boss Attack
   - Boss
+  - Boss Attack
+  - Ground
+  - Spikes
+  - FalseWall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Boss
+  - Enemy
   - Water
   - UI
   - Player
-  - Enemy
   - Player Attack
   - Boss Attack
+  - Boss
   - 
   - 
   - 

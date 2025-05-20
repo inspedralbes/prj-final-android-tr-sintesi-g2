@@ -16,7 +16,7 @@
     <Configurations>Debug;Release</Configurations>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <RootNamespace>DialogSystemTilin</RootNamespace>
+    <RootNamespace></RootNamespace>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -28,7 +28,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_6000_0_35;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_6000_0_35;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;MIRROR;MIRROR_89_OR_NEWER;MIRROR_90_OR_NEWER;MIRROR_93_OR_NEWER;MIRROR_96_OR_NEWER;EDGEGAP_PLUGIN_SERVERS;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -59,140 +59,339 @@
     <UnityVersion>6000.0.35f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\edsxn\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.1.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\IKER\Scripts\Environment\GuardarPartida.cs" />
-    <Compile Include="Assets\EDSON\UI Menu\UI_Principal\Principal.cs" />
-    <Compile Include="Assets\EDSON\UI Menu\UI_LoadGame\CargarPartida.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\EDSON\UI Menu\UI_InitialScreen\InitialScreen.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\IKER\Scripts\DialogueSystem\DialogueRoundSO.cs" />
-    <Compile Include="Assets\sound.cs" />
-    <Compile Include="Assets\IKER\Scripts\Environment\PocionController.cs" />
-    <Compile Include="Assets\POL\scripts\CargarPartidaAsset.cs" />
-    <Compile Include="Assets\IKER\Scripts\Enemies\FlyingEyeEnemy1.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-    <Compile Include="Assets\IKER\Scripts\Environment\healControler.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\NICO\BossTutorial.cs" />
-    <Compile Include="Assets\NICO\Scripts\SavePoint.cs" />
-    <Compile Include="Assets\IKER\Scripts\Environment\NuevaPartida.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\EDSON\UI Menu\UI_BorrarPartida\DeleteGame.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\IKER\Scripts\Enemies\EnemyAI.cs" />
-    <Compile Include="Assets\cinematicaLogica\script\CinematicManager.cs" />
-    <Compile Include="Assets\EDSON\UI Menu\MenuMan\MenuManager.cs" />
-    <Compile Include="Assets\IKER\Scripts\DialogueSystem\DialogueTrigger.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\NICO\Scripts\FalseWall.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\POL\scripts\Principal.cs" />
-    <Compile Include="Assets\IKER\Scripts\DialogueSystem\DialogueUI.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\NICO\Scripts\Skeleton.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\IKER\Scripts\Enemies\MeleeEnemy.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\NICO\Scripts\AnimationTester.cs" />
-    <Compile Include="Assets\IKER\Scripts\Controllers\Camera.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-    <Compile Include="Assets\POL\scripts\PauseMenuManager.cs" />
-    <Compile Include="Assets\IKER\Scripts\Player\Sensor_HeroKnight.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-    <Compile Include="Assets\IKER\Scripts\DialogueSystem\DialogueManager.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\IKER\Scripts\Environment\Checkpoint.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\IKER\Scripts\Environment\ChestController.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\EDSON\UI Menu\UI_Register\Prueba.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\IKER\Scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\IKER\Scripts\UI\BarraVida.cs" />
-    <Compile Include="Assets\IKER\Scripts\Enemies\GoblinEnemy.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\IKER\Scripts\DialogueSystem\DialogueTurn.cs" />
-    <Compile Include="Assets\MOI\Scripts\InventoryManager.cs" />
-    <Compile Include="Assets\IKER\Scripts\DialogueSystem\DialogueCharacter SO.cs" />
-    <Compile Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-    <Compile Include="Assets\IKER\Scripts\Enemies\MushroomEnemy.cs" />
-    <Compile Include="Assets\NICO\Scripts\FalseGround.cs" />
-    <Compile Include="Assets\EDSON\UI Menu\UI_Login\Login.cs" />
-    <Compile Include="Assets\EDSON\UI Menu\UI_LoadGame\Load.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\UI\Ui_Credits\CreditsManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamuser.cs" />
+    <Compile Include="Assets\Scripts\BarraMana.cs" />
+    <Compile Include="Assets\Multiplayer\DifficultyManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamnetworkingutils.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamRemoteStorage\PublishedFileId_t.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\SteamNetworkingErrMsg.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Multiplayer\BossSpawner.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\Steam.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\LegacyCommon.cs" />
+    <Compile Include="Assets\Multiplayer\PlayerControllerMulti.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameserverhttp.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteammusicremote.cs" />
+    <Compile Include="Assets\ParrelSync\ParrelSync-master\Examples\CustomArgumentExample.cs" />
+    <Compile Include="Assets\Multiplayer\CameraFollowMulti.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamTypes\SiteId_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\SteamNetworkingIPAddr.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\SteamEnums.cs" />
+    <Compile Include="Assets\Scripts\Enemies\MeleeEnemy.cs" />
+    <Compile Include="Assets\Multiplayer\BossTutorialMultiplayer.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameservernetworking.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameserverugc.cs" />
+    <Compile Include="Assets\Scripts\Camera.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamUGC\UGCQueryHandle_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamremotestorage.cs" />
+    <Compile Include="Assets\Multiplayer\GoblinEnemyMultiplayer.cs" />
+    <Compile Include="Assets\UI\UI_PAUSA\PauseMenuManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamDatagramTickets\SteamDatagramHostedAddress.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamTypes\SteamAPICall_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamMatchmaking\HServerListRequest.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\FSteamNetworkingSocketsDebugOutput.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamRemoteStorage\UGCFileWriteStreamHandle_t.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueRoundSO.cs" />
+    <Compile Include="Assets\Scripts\Player\SkinManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamapps.cs" />
+    <Compile Include="Assets\Scripts\DeathBossController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamRemotePlay\RemotePlaySessionID_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\MatchmakingTypes\servernetadr_t.cs" />
+    <Compile Include="Assets\Multiplayer\CustomNetworkManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamTypes\ManifestId_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\SteamNetworkingMessage_t.cs" />
+    <Compile Include="Assets\Scripts\Environment\NuevaPartida.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamfriends.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\BotonClick.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamHTTP\HTTPCookieContainerHandle.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\NextClient.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameserverapps.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamclient.cs" />
+    <Compile Include="Assets\Scripts\Enemies\GoblinEnemy.cs" />
+    <Compile Include="Assets\Multiplayer\RejaControllerMultiplayer.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamTypes\SteamIPAddress_t.cs" />
+    <Compile Include="Assets\Scripts\Player\Sensor_HeroKnight.cs" />
+    <Compile Include="Assets\Scripts\BossTutorial.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamTypes\PartyBeaconID_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamvideo.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamugc.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamTypes\DepotId_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamUnifiedMessages\ClientUnifiedMessageHandle.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\SteamNetworkingIdentity.cs" />
+    <Compile Include="Assets\Multiplayer\PlayerObjectController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamHTMLSurface\HHTMLBrowser.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamnetworking.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamMatchmaking\HServerQuery.cs" />
+    <Compile Include="Assets\Scripts\Skeleton.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\SteamNetworkingPOPID.cs" />
+    <Compile Include="Assets\Scripts\CinematicManager.cs" />
+    <Compile Include="Assets\JugadorCarga.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\SteamCallbacks.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameserver.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteammusic.cs" />
+    <Compile Include="Assets\Scripts\Menu\LoginManager.cs" />
+    <Compile Include="Assets\Scripts\Environment\PocionController.cs" />
+    <Compile Include="Assets\UI\UI Menu\UI_LoadGame\Load.cs" />
+    <Compile Include="Assets\Scripts\Player\DoubleJumpController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\Steam_api_common\HSteamUser.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamClient\SteamAPI_PostAPIResultInProcess_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\LegacyClient.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamremoteplay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Multiplayer\FireballMultiplayer.cs" />
+    <Compile Include="Assets\Multiplayer\SteamLobby.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\HSteamNetPollGroup.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Multiplayer\DeathBossSceneLoaderMulti.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\InteropHelp.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\UI\UI Menu\UI_LoadGame\CargarPartida.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\UI\Ui Inventory\InventoryManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamInventory\SteamItemInstanceID_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\Version.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\UI\UI Menu\UI_Principal\Principal.cs" />
+    <Compile Include="Assets\Scripts\Enemies\MedidevalEnemy.cs" />
+    <Compile Include="Assets\Scenes\online\MainMenuButtonController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamRemoteStorage\UGCHandle_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamInput\InputActionSetHandle_t.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyStatsLoader.cs" />
+    <Compile Include="Assets\UI\UI_LoginRegister\UI_Login\Login.cs" />
+    <Compile Include="Assets\UI\UI Menu\UI_SkinStore\ShopController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\CallbackDispatcher.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameservernetworkingsockets.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Multiplayer\LobbiesListManager.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyData.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Scripts\LadderController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameserverinventory.cs" />
+    <Compile Include="Assets\Scripts\BossDeathSceneLoader.cs" />
+    <Compile Include="Assets\Scripts\Enemies\LightBanditEnemy.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamDatagramTickets\SteamDatagramRelayAuthTicket.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamscreenshots.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamutils.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamHTTP\HTTPRequestHandle.cs" />
+    <Compile Include="Assets\Multiplayer\BossRespawner.cs" />
+    <Compile Include="Assets\Multiplayer\FlagZone.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamRemoteStorage\PublishedFileUpdateHandle_t.cs" />
+    <Compile Include="Assets\Scripts\Environment\FalseWall.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamTypes\AccountID_t.cs" />
+    <Compile Include="Assets\Scripts\Player\RuntimesSkinLoader.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\UI\UI Menu\UI_BorrarPartida\DeleteGame.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\UI_Canvas\BarraVida.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\BidirectionalDictionary.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueUI.cs" />
+    <Compile Include="Assets\Scripts\Environment\GuardarPartida.cs" />
+    <Compile Include="Assets\Scripts\JsonHelper.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\Packsize.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworking\SNetSocket_t.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamScreenshots\ScreenshotHandle.cs" />
+    <Compile Include="Assets\Scripts\stats\EnemyDeathService.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamClientPublic\CGameID.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamClientPublic\HAuthTicket.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Scripts\Steamworks.NET\SteamManager.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\IClient.cs" />
+    <Compile Include="Assets\Scripts\Environment\LLaveEsqueletoController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameserverclient.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamTypes\AppId_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteammatchmaking.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueTrigger.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\SteamNetworkingMicroseconds.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingSockets\ISteamNetworkingSignalingRecvContext.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingSockets\ISteamNetworkingConnectionSignaling.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\FizzySteamworks.cs" />
+    <Compile Include="Assets\Scripts\Environment\ChestController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamapplist.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamTypes\RTime32.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Multiplayer\DifficultyDislayUI.cs" />
+    <Compile Include="Assets\Scripts\Environment\Checkpoint.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\SteamConstants.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamuserstats.cs" />
+    <Compile Include="Assets\UI\UI_LoginRegister\UI_InitialScreen\InitialScreen.cs" />
+    <Compile Include="Assets\Multiplayer\BarraVidaMulti.cs" />
+    <Compile Include="Assets\Scripts\SavePoint.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamClient\SteamAPIWarningMessageHook_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworking\SNetListenSocket_t.cs" />
+    <Compile Include="Assets\UI\Ui_Credits\CreditsMenuButton.cs" />
+    <Compile Include="Assets\Scripts\rejaController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\Steam_api_common\HSteamPipe.cs" />
+    <Compile Include="Assets\Scripts\Enemies\FlyingEyeEnemy1.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamUserStats\SteamLeaderboard_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameserverstats.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\ISteamMatchmakingResponses.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamClientPublic\CSteamID.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamnetworkingmessages.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamnetworkingsockets.cs" />
+    <Compile Include="Assets\UI\UI_LoginRegister\UI_Register\Prueba.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Scripts\Enemies\HeavyBanditEnemy.cs" />
+    <Compile Include="Assets\Scripts\sound.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameserverutils.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamUGC\UGCUpdateHandle_t.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueCharacter SO.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\NextCommon.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteaminput.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem\DialogueTurn.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamparentalsettings.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCheckpointManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamhttp.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\IServer.cs" />
+    <Compile Include="Assets\Multiplayer\EnemySpawner.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamClient\SteamAPI_CheckCallbackRegistered_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamFriends\FriendsGroupID_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamInput\InputAnalogActionHandle_t.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\CallbackIdentity.cs" />
+    <Compile Include="Assets\Multiplayer\BarraManaMulti.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteaminventory.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\HSteamListenSocket.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamunifiedmessages.cs" />
+    <Compile Include="Assets\Scripts\Player\CoinManager.cs" />
+    <Compile Include="Assets\Scripts\SmokeEffect.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamInventory\SteamInventoryResult_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamInventory\SteamItemDef_t.cs" />
+    <Compile Include="Assets\Scripts\Environment\healControler.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\Menu\MenuManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\LegacyServer.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\NextServer.cs" />
+    <Compile Include="Assets\Multiplayer\GameManager.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\HSteamNetConnection.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamUserStats\SteamLeaderboardEntries_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamgameservernetworkingutils.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\NativeMethods.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamInventory\SteamInventoryUpdateHandle_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamInput\InputDigitalActionHandle_t.cs" />
+    <Compile Include="Assets\Scripts\PlataformaController.cs" />
+    <Compile Include="Assets\Multiplayer\PlayerListItem.cs" />
+    <Compile Include="Assets\Scripts\Enemies\MushroomEnemy.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\MatchmakingTypes\gameserveritem_t.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\SteamStructs.cs" />
+    <Compile Include="Assets\Scripts\FalseGround.cs" />
+    <Compile Include="Assets\Multiplayer\LobbyDataEntry.cs" />
+    <Compile Include="Assets\Multiplayer\LobbyController.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamInput\InputHandle_t.cs" />
+    <Compile Include="Assets\Scripts\CargarPartidaAsset.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\types\SteamNetworkingTypes\SteamNetworkingConfigValue_t.cs" />
+    <Compile Include="Assets\Scripts\Fireball.cs" />
+    <Compile Include="Assets\Multiplayer\EnemyAIMultiplayer.cs" />
+    <Compile Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Runtime\autogen\isteamhtmlsurface.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\EDSON\UI Menu\UI_Principal\Principal.uxml" />
-    <None Include="Assets\spritefont_and_other\document_and_picturelist\readme.txt" />
-    <None Include="Assets\POL\UI\UI_CargarPartida\CargarPartida.uxml" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\EDSON\UI Menu\UI_Login\Login.uxml" />
-    <None Include="Assets\MOI\inventario\inventuss.uss" />
-    <None Include="Assets\EDSON\UI Menu\UI_Register\Prueba.uxml" />
-    <None Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
-    <None Include="Assets\EDSON\UI Menu\UI_InitialScreen\InitialScreen.uxml" />
-    <None Include="Assets\EDSON\UI Menu\UI_Login\Login.uss" />
-    <None Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Fonts\Unity - OFL.txt" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\EDSON\NewUXMLTemplate.uxml" />
-    <None Include="Assets\EDSON\UI Menu\UI_LoadGame\Load.uss" />
-    <None Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
-    <None Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - AFL.txt" />
-    <None Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\POL\Plugins\Newtonsoft.Json.dll" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\EDSON\UI Menu\UI_Register\Prueba.uss" />
-    <None Include="Assets\MOI\inventario\inventario.uxml" />
-    <None Include="Assets\EDSON\UI Menu\UI_BorrarPartida\DeleteGame.uss" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
-    <None Include="Assets\POL\UI\UI_PAUSA\Pausa.uxml" />
-    <None Include="Assets\EDSON\UI Menu\UI_Principal\Principal.uss" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\IKER\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\POL\UI\UI_Principal\Principal.uss" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\IKER\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\EDSON\UI Menu\UI_BorrarPartida\DeleteGame.uxml" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\EDSON\UI Menu\UI_InitialScreen\InitialScreen.uss" />
-    <None Include="Assets\POL\UI\UI_CargarPartida\CargarPartida.uss" />
-    <None Include="Assets\IKER\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\POL\UI\UI_Principal\Principal.uxml" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\POL\UI\UI_PAUSA\Pausa.uss" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\EDSON\UI Menu\UI_LoadGame\Load.uxml" />
-    <None Include="Assets\IKER\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\IKER\TextMesh Pro\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\IKER\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
+    <None Include="Assets\UI\UI Menu\UI_CargarPartida\CargarPartida.uxml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\UI\UI_LoginRegister\UI_Login\Login.uxml" />
+    <None Include="Assets\UI\Ui Inventory\inventuss.uss" />
+    <None Include="Assets\UI\UI_LoginRegister\UI_Register\Prueba.uxml" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - License.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\UI\UI_LoginRegister\UI_InitialScreen\InitialScreen.uxml" />
+    <None Include="Assets\PixelFX_vol1\readme.txt" />
+    <None Include="Assets\UI\UI_LoginRegister\UI_Login\Login.uss" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Unity - OFL.txt" />
+    <None Include="Assets\ScriptTemplates\52-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Bringer Of Death\License.txt" />
+    <None Include="Assets\UI\Ui_Credits\Credits.uxml" />
+    <None Include="Assets\UI\UI Menu\UI_LoadGame\Load.uss" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Roboto-Bold - AFL.txt" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
+    <None Include="Assets\Mirror\version.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Plugins\x86_64\steam_api64.dll" />
+    <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\ScriptTemplates\51-Mirror__Network Manager With Actions-NewNetworkManagerWithActions.cs.txt" />
+    <None Include="Assets\ScriptTemplates\53-Mirror__Network Behaviour With Actions-NewNetworkBehaviourWithActions.cs.txt" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\UI\UI_LoginRegister\UI_Register\Prueba.uss" />
+    <None Include="Assets\UI\Ui Inventory\inventario.uxml" />
+    <None Include="Assets\UI\UI Menu\UI_BorrarPartida\DeleteGame.uss" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\UI\UI_PAUSA\Pausa.uxml" />
+    <None Include="Assets\Mirror\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\ParrelSync\ParrelSync-master\VERSION.txt" />
+    <None Include="Assets\UI\UI Menu\UI_Principal\Principal.uss" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\EVil Wizard\License.txt" />
+    <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\UI\UI Menu\UI_BorrarPartida\DeleteGame.uxml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\UI\UI_LoginRegister\UI_InitialScreen\InitialScreen.uss" />
+    <None Include="Assets\UI\UI Menu\UI_CargarPartida\CargarPartida.uss" />
+    <None Include="Assets\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\Dependencies\Plugins\x86\steam_api.dll" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\UI\UI Menu\UI_Principal\Principal.uxml" />
+    <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
+    <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
+    <None Include="Assets\Mirror\Runtime\Transport\FizzySteamworks\version.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\ScriptTemplates\54-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
+    <None Include="Assets\UI\UI_PAUSA\Pausa.uss" />
+    <None Include="Assets\UI\Ui_Muerte\Death.uxml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
+    <None Include="Assets\UI\UI Menu\UI_LoadGame\Load.uxml" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\UI\UI Menu\UI_SkinStore\SkinStoreUSS.uss" />
+    <None Include="Assets\UI\UI Menu\UI_SkinStore\SkinStore.uxml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\UI\Ui_Credits\Credits.uss" />
+    <None Include="Assets\Bringer Of Death\Contact.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\Mirror\Hosting\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -659,6 +858,14 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Mono.CecilX">
+      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.CecilX.Mdb">
+      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@56bff8827a7e\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -667,12 +874,24 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Assets\POL\Plugins\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Mirror.BouncyCastle.Cryptography">
+      <HintPath>Assets\Mirror\Transports\Encryption\Plugins\BouncyCastle\Mirror.BouncyCastle.Cryptography.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -1175,16 +1394,8 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
@@ -1195,32 +1406,16 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Collections.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
@@ -1231,8 +1426,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
@@ -1243,16 +1442,140 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras">
@@ -1263,8 +1586,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
@@ -1275,24 +1598,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
@@ -1303,10 +1614,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1315,20 +1622,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
@@ -1343,24 +1642,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    <Reference Include="Unity.Rendering.LightTransport.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InputSystem">
@@ -1369,6 +1660,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Mirror.Editor.csproj" />
+    <ProjectReference Include="Edgegap.csproj" />
+    <ProjectReference Include="Telepathy.csproj" />
+    <ProjectReference Include="Mirror.Components.csproj" />
+    <ProjectReference Include="EncryptionTransportEditor.csproj" />
+    <ProjectReference Include="Mirror.CompilerSymbols.csproj" />
+    <ProjectReference Include="Mirror.Authenticators.csproj" />
+    <ProjectReference Include="Mirror.Examples.csproj" />
+    <ProjectReference Include="kcp2k.csproj" />
+    <ProjectReference Include="Mirror.csproj" />
+    <ProjectReference Include="SimpleWebTransport.csproj" />
+    <ProjectReference Include="Mirror.Transports.csproj" />
+    <ProjectReference Include="ParrelSync.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

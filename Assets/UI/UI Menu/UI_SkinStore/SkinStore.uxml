@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UI%20Menu/UI_SkinStore/SkinStoreUSS.uss?fileID=7433441132597879392&amp;guid=7e95e1815991b4a93b5d45bec42d9bac&amp;type=3#SkinStoreUSS" />
+    <ui:VisualElement name="skin-shop-container" class="skin-shop-container" style="-unity-background-image-tint-color: rgb(219, 86, 38); background-color: rgba(60, 0, 0, 0.8);">
+        <ui:VisualElement name="coins-container" tabindex="1" class="coins-container" style="position: absolute; top: 40px; left: 38px; flex-direction: row; align-items: center;">
+            <ui:Image name="coins-icon" class="coins-icon" style="width: 61px; height: 48px; background-image: url(&quot;project://database/Assets/Art/Sprites/Inventory/moneda.png?fileID=2800000&amp;guid=a03a4abc5a29fb244ad437607eb4935e&amp;type=3#moneda&quot;); margin-right: 8px; background-position-x: center 0; -unity-background-scale-mode: stretch-to-fill; -unity-text-align: lower-left;" />
+            <ui:Label name="coins-amount-label" text="1234" class="coins-amount-label" style="font-size: 40px; color: rgb(255, 223, 0); -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Olondon_.otf?fileID=12800000&amp;guid=6e496f4f8dd214c4d9975e95eb72cb35&amp;type=3#Olondon_&quot;); width: 79px; height: 38px; -unity-text-align: upper-left;" />
+        </ui:VisualElement>
+        <ui:Label name="shop-title" text="Shop Skins" tabindex="1" class="shop-title" style="height: 82px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&amp;guid=ec41658cac96d43e9a71af7381558af0&amp;type=3#OldLondonAlternate&quot;); font-size: 70px;" />
+        <ui:VisualElement name="skin-display-area" class="skin-display-area" style="height: 705px;">
+            <ui:Button name="left-arrow" text="←" class="arrow-button left-arrow" />
+            <ui:VisualElement name="skin-image-container" class="skin-image-container" style="width: 512px; height: 601px; background-color: rgba(255, 255, 255, 0.1);">
+                <ui:Image name="skin-image" class="skin-image" style="-unity-background-image-tint-color: rgb(255, 255, 255); background-image: url(&quot;project://database/Assets/Art/Sprites/8a2056984ba6420698ff6aa8f06eeb86-removebg-preview.png?fileID=2800000&amp;guid=1274ea5d3a04ba04ebe172591e9ac5b6&amp;type=3#8a2056984ba6420698ff6aa8f06eeb86-removebg-preview&quot;);" />
+                <ui:Label name="skin-name-label" text="Blue" class="skin-name-label" style="font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Olondon_.otf?fileID=12800000&amp;guid=6e496f4f8dd214c4d9975e95eb72cb35&amp;type=3#Olondon_&quot;);" />
+                <ui:Label name="price-label" text="30$" class="price-label" style="font-size: 30px;" />
+                <ui:VisualElement name="loading-indicator" class="loading-indicator" />
+            </ui:VisualElement>
+            <ui:Button name="right-arrow" text="→" class="arrow-button right-arrow" />
+        </ui:VisualElement>
+        <ui:Button name="action-button" text="Comprar" class="action-button" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/OldLondon.ttf?fileID=12800000&amp;guid=42eba26df2a7a44aca9de407286bd96d&amp;type=3#OldLondon&quot;); font-size: 30px; background-image: url(&quot;project://database/Assets/Art/Sprites/Inventory/back.png?fileID=2800000&amp;guid=4271149e3e1ff7140bb9e10b91e3a259&amp;type=3#back&quot;); height: 59px; -unity-text-align: upper-center; color: rgb(255, 255, 255); width: 244px;" />
+    </ui:VisualElement>
+    <ui:Button name="shop-back-button" icon-image="project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=5923138177525885446&amp;guid=216e6aecdaff5114e8127bf0782f4f13&amp;type=3#Remove@2x" tabindex="1" style="position: absolute; white-space: pre-wrap; -unity-text-align: lower-center; left: 94%; height: 60px; background-color: rgba(255, 255, 255, 0); color: rgb(77, 70, 70); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; overflow: visible; top: 2%; -unity-text-outline-color: rgba(255, 255, 255, 0); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+</ui:UXML>

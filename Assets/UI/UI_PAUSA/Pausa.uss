@@ -1,0 +1,75 @@
+.fullscreen-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.pause-menu {
+    width: 550px;
+    min-height: 400px;
+    background-size: 100% 100%;
+    border-radius: 12px;
+    padding: 30px;
+    
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.pause-title {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 3px;
+}
+
+.buttons-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-button {
+    width: 80%;
+    height: 60px;
+    margin: 10px 0;
+    background-color: transparent;
+    border-width: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-button:hover {
+    scale: 1.05;
+}
+
+.menu-button:active {
+    scale: 0.95;
+}
+
+.button-background {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-text {
+    color: white;
+    font-size: 24px;
+    -unity-font-definition: url("project://database/Assets/Fonts/Olondon_.otf?fileID=12800000&guid=6e496f4f8dd214c4d9975e95eb72cb35&type=3#Olondon_");
+    -unity-font-style: bold;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.7);
+}

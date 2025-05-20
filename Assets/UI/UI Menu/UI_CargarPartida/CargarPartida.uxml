@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UI%20Menu/UI_CargarPartida/CargarPartida.uss?fileID=7433441132597879392&amp;guid=6ac02afeee613ae43ad2b05e808103b4&amp;type=3#CargarPartida" />
+    <ui:VisualElement name="MainPanel" class="main-panel" style="background-color: rgba(20, 20, 20, 0);">
+        <ui:VisualElement name="MenuContainer" class="menu-container" style="background-color: rgba(0, 0, 0, 0); width: 558px; height: 464px;">
+            <ui:Button name="LoadGameButton" text="Cargar Partida" class="menu-button" style="height: 92px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&amp;guid=ec41658cac96d43e9a71af7381558af0&amp;type=3#OldLondonAlternate&quot;);" />
+            <ui:Button name="NewGameButton" text="Nueva Partida" class="menu-button" style="height: 82px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&amp;guid=ec41658cac96d43e9a71af7381558af0&amp;type=3#OldLondonAlternate&quot;);" />
+            <ui:Button name="DeleteGameButton" text="Borrar Partida" class="menu-button" style="height: 92px; margin-top: 10px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&amp;guid=ec41658cac96d43e9a71af7381558af0&amp;type=3#OldLondonAlternate&quot;);" />
+            <ui:Button name="ExitButton" text="Salir" class="menu-button" style="height: 89px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&amp;guid=ec41658cac96d43e9a71af7381558af0&amp;type=3#OldLondonAlternate&quot;);" />
+            <ui:Button text="Shop" name="ShopButton" class="menu-button" style="position: absolute; top: -582px; left: 1678px; -unity-text-align: upper-center; white-space: pre; height: 82px; -unity-font-definition: url(&quot;project://database/Assets/Fonts/OldLondon.ttf?fileID=12800000&amp;guid=42eba26df2a7a44aca9de407286bd96d&amp;type=3#OldLondon&quot;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

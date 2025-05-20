@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UI_PAUSA/Pausa.uss?fileID=7433441132597879392&amp;guid=5dff1351cb7cb4746b05b52f36f81657&amp;type=3#Pausa" />
+    <ui:VisualElement name="background" class="fullscreen-background" style="display: none;">
+        <ui:VisualElement name="pauseMenu" class="pause-menu" style="background-image: url(&quot;project://database/Assets/Art/Sprites/fondoPausa.png?fileID=2800000&amp;guid=b31f2df0f6d86c24a8ae9095f2de85d8&amp;type=3#fondoPausa&quot;); height: 440px; width: 770px;">
+            <ui:Label text="PAUSA" class="pause-title" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/OldLondonAlternate.ttf?fileID=12800000&amp;guid=ec41658cac96d43e9a71af7381558af0&amp;type=3#OldLondonAlternate&quot;); -unity-font-style: bold-and-italic; width: 238px; -unity-text-align: middle-center;" />
+            <ui:VisualElement name="buttonsContainer" class="buttons-container">
+                <ui:Button name="resumeButton" class="menu-button" style="height: 118px;">
+                    <ui:VisualElement name="buttonBackground" class="button-background" style="background-image: url(&quot;project://database/Assets/Art/Sprites/Inventory/back.png?fileID=2800000&amp;guid=4271149e3e1ff7140bb9e10b91e3a259&amp;type=3#back&quot;);">
+                        <ui:Label text="Reanudar" class="button-text" style="font-size: 35px;" />
+                    </ui:VisualElement>
+                </ui:Button>
+                <ui:Button name="quitButton" class="menu-button" style="height: 108px;">
+                    <ui:VisualElement name="buttonBackground" class="button-background" style="background-image: url(&quot;project://database/Assets/Art/Sprites/Inventory/back.png?fileID=2800000&amp;guid=4271149e3e1ff7140bb9e10b91e3a259&amp;type=3#back&quot;); height: 88px; width: 549px;">
+                        <ui:Label text="Salir" class="button-text" style="font-size: 35px;" />
+                    </ui:VisualElement>
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UI_Principal/Principal.uss?fileID=7433441132597879392&amp;guid=a865262a128ca714dbc84a871016a6d7&amp;type=3#Principal" />
+    <ui:VisualElement name="MainPanel" class="main-panel">
+        <ui:VisualElement name="MenuContainer" class="menu-container" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:Button name="SinglePlayerButton" text="Single" class="menu-button" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Olondon_.otf?fileID=12800000&amp;guid=6e496f4f8dd214c4d9975e95eb72cb35&amp;type=3#Olondon_&quot;);" />
+            <ui:Button name="MultiplayerButton" text="Multiplayer" class="menu-button" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Olondon_.otf?fileID=12800000&amp;guid=6e496f4f8dd214c4d9975e95eb72cb35&amp;type=3#Olondon_&quot;);" />
+            <ui:Button name="CreditsButton" text="Credits" class="menu-button" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/Olondona.otf?fileID=12800000&amp;guid=10dcd5807d0dd48b3835048c8fe4f118&amp;type=3#Olondona&quot;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
